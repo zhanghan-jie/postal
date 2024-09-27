@@ -1,0 +1,11 @@
+
+train: E:\8.8\ultralytics-main\detect\Face sheet
+val: E:\8.8\ultralytics-main\detect\Face sheet
+
+train_label: E:\8.8\ultralytics-main\detect\Face sheet labels
+val_label: E:\8.8\ultralytics-main\detect\Face sheet labels
+
+nc: 1
+
+name:
+  0: Face sheet
