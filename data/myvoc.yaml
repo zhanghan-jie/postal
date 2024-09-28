@@ -1,0 +1,65 @@
+#path: E:\8.8\yolov5-master\myvoc\output-in
+#train: E:\8.8\yolov5-master\myvoc\output-in
+#val: E:\8.8\yolov5-master\myvoc\output-in
+#
+#nc: 4
+#
+#name:
+#  0: courier bag
+#  1: carton
+#  2: pocket
+#  3: General Package
+
+
+#train: E:\8.8\yolov5-master\myvoc\output-in
+#val: E:\8.8\yolov5-master\myvoc\output-in
+#
+#train_labels: E:\8.8\yolov5-master\myvoc\output-out
+#val_labels: E:\8.8\yolov5-master\myvoc\output-out
+## Classes
+#nc: 4
+#names:
+#  0: courier bag
+#  1: carton
+#  2: pocket
+#  3: General Package
+
+#train: E:\Images\images
+#val: E:\Images\images
+#
+#train_labels: F:\labels
+#val_labels: F:\labels
+
+train: E:\8.8\yolov5-master\image_all\images
+val: E:\8.8\yolov5-master\image_all\images
+
+train_labels: E:\8.8\yolov5-master\image_all\labels
+val_labels: E:\8.8\yolov5-master\image_all\labels
+
+
+
+# Classes
+nc: 7
+#names:
+#  0: carton
+#  1: General Package
+#  2: courier bag
+#  3: Woven bags
+#  4: Face sheet
+#  5: pocket
+#  6: dilapidation
+#names:
+#  0: General Package
+#  1: carton
+#  2: Face sheet
+#  3: pocket
+#  4: courier bag
+#  5: dilapidation
+names:
+  0: carton
+  1: courier bag
+  2: General Package
+  3: pocket
+  4: dilapidation
+  5: Foam box
+  6: Special-shaped parts
